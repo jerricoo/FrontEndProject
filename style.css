@@ -1,0 +1,195 @@
+h1.title {
+    text-align: left;
+    color: #83AA54;
+    font-family:'Arial Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 84%;
+    letter-spacing: -1px;
+}
+
+h2.subtitle {
+    font-family: 'Arial Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 41px;
+    color: beige;
+    letter-spacing: -2px;
+}
+
+.personal, .edu, .expe {
+    font-family: 'Helvatica Neue', sans-serif;
+    font-size: 16px;
+    color: beige;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align:left;
+    margin: 15px 0;
+}
+
+.boldh{
+    font-family: 'Helvatica Neue', sans-serif;
+    font-size: 20px;
+    color: beige;
+    font-weight: bold;
+    line-height: auto;
+    text-align: normal;
+    margin: 15px 0;
+}
+
+.normalh{
+    font-family: 'Helvatica Nueu', sans-serif;
+    font-size: 16px;
+    color: beige;
+    font-weight: normal;
+    letter-spacing: -5%;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 15px 0; 
+}
+
+.normala {
+        font-family: 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    color: beige;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 15px 0; 
+}
+
+.expe {
+    font-family: 'Helvatica Neue', sans-serif;
+    color: beige;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: #83AA54;
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 250px;               
+    height: auto;
+    object-fit: cover;         
+    border-radius: 16.68px;       
+    border: 5px solid #e17dc1;
+    margin-bottom: 20px;
+}
+
+.container {
+    font-weight: bold;
+    display: flex;           
+    align-items: flex-start; 
+    gap: 20px;               
+    margin: 20px;
+    background-color: #FFFEEE;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.boxprofile {
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-right {
+    background-color: #e17dc1;
+    flex: 1;   
+    margin-left: 80px;              
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.contact{
+    text-align: left;
+    color: #83AA54;
+    font-family:'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:auto;
+    letter-spacing: 2%;
+}
+
+.you {
+    text-align: left;
+    color: #83AA54;
+    font-family:'Arial Narrow', sans-serif;
+    font-size: 56px;
+    line-height: 84%;
+    letter-spacing: -1px;
+}
+
+.skills-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: beige;
+    margin-bottom: 10px;
+}
+
+.boxskill {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.technical, .soft {
+    flex: 1;
+    padding: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: beige;
+    line-height: 1.4;
+}
+
+.container-icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.canva, .ps, .capcut, .vscode {
+    width: 74px;               
+    height: auto;
+    object-fit: cover;         
+    border-radius: 16.68px;
+    place-content: center;       
+}
+
+@font-face {
+  font-family: 'Helvetica Neue'; 
+  src: url('../fonts/HELVETICANEUEMEDIUM.OTF') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue'; 
+  src: url('../fonts/HELVETICANEUEBOLD.OTF') format('opentype');
+  font-weight: bold; 
+  font-style: normal;
+}
+
+.technical ul, .soft ul {
+    padding-left: 20px;   
+    margin: 0;
+}
+
+.technical li, .soft li {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: beige;
+    line-height: 1.6;
+}
+
+
